@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.kopilim.information_recruitment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/agreementImage"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/infomation_recruitment"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textInAgreement"
+                android:layout_margin="10dp"
+                android:text="@string/textInRecruitment"
+                android:textSize="17dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

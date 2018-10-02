@@ -1,0 +1,182 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_manage_profile"
+    tools:context="info.androidhive.kopilim.fragment_manageProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/transparent_welcome_page"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="35dp"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"
+                android:textStyle="italic"
+                android:text="@string/manageProfile"/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/logo_profile_image" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/empEmail"
+                android:text="@string/email"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/black"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@android:color/black"
+                android:layout_margin="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/empID"
+                    android:hint="@string/profileID"
+                    android:inputType="text"
+                    android:textColor="@android:color/black"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/getdata"
+                android:text="@string/getData"
+                android:background="@color/buttonLogin"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/empName"
+                android:text="@string/profileName"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+                android:visibility="invisible"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/empIC"
+                android:text="@string/profileIC"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+                android:visibility="invisible"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/empSex"
+                android:text="@string/profileSex"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+                android:visibility="invisible"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/black"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@android:color/black"
+                android:visibility="invisible"
+                android:id="@+id/tPhone"
+                android:layout_margin="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/empPh"
+                    android:hint="@string/profileHp"
+                    android:inputType="number"
+                    android:textColor="@android:color/black"
+                    android:visibility="invisible"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@android:color/black"
+                android:id="@+id/tAddress"
+                android:visibility="invisible"
+                android:layout_margin="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/empAddress"
+                    android:hint="@string/profileAddress"
+                    android:inputType="text"
+                    android:textColor="@android:color/black"
+                    android:visibility="invisible"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/profileBtn"
+                android:text="@string/updateProfileBtn"
+                android:visibility="invisible"
+                android:background="@color/buttonLogin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/empVerifyEmail"
+                android:text="@string/email"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:visibility="invisible"
+                android:textColor="@android:color/black"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

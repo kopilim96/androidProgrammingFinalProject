@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/checkIn"
+            android:title="@string/checkIn"
+            android:icon="@drawable/icon_checkin"/>
+        <item
+            android:id="@+id/checkOut"
+            android:title="@string/checkOut"
+            android:icon="@drawable/icon_checkout"/>
+
+    <item android:title="@string/Apply">
+        <menu>
+            <item
+                android:id="@+id/applyOff"
+                android:title="@string/applyOffDay"
+                android:icon="@drawable/icon_letter"/>
+            <item
+                android:id="@+id/reportBug"
+                android:title="@string/reportBug"
+                android:icon="@drawable/icon_bug"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/setting">
+        <menu>
+            <item
+                android:id="@+id/phoneCall"
+                android:title="@string/distress"
+                android:icon="@drawable/icon_call"/>
+            <item
+                android:id="@+id/manageProfile"
+                android:title="@string/manageProfile"
+                android:icon="@drawable/icon_profile"/>
+            <item
+                android:id="@+id/logout"
+                android:title="@string/logout"
+                android:icon="@drawable/icon_logout"/>
+        </menu>
+    </item>
+    </group>
+
+</menu>

@@ -1,0 +1,137 @@
+<resources>
+    <string name="mainPageName">Kopi Cooperation</string>
+    <string name="appName">Kopi Cooperation Apps</string>
+
+    <string name="labelSignUp">Registration</string>
+    <string name="labelForgot">Get Your Password</string>
+    <string name="labelHomePage">Home Page</string>
+
+    <string name="companyName">Kopi Cooperation</string>
+    <string name="rightReserved">2018_Kopi Cooperation Right Reserved.</string>
+
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="passwordConfirm">Confirm Password</string>
+    <string name="tarcCode">Company Code</string>
+
+    <string name="registerLine">Dont have account? Register Now.</string>
+    <string name="backToLoginPage">Already Register? Login NOW.</string>
+    <string name="forgetpass">Forget Password</string>
+    <string name="gotPass">Got Your Password? Login NOW</string>
+
+    <!--Distress Profile-->
+    <string name="polisDept">Department of Police Station</string>
+    <string name="polisPhone">Tel: 0105653762</string>
+    <string name="polisOfficePhone">Office: 030303003</string>
+    <string name="polisOncall">24 Hours OnCall</string>
+    <string name="polisName">Mr. Bryant</string>
+
+    <!--Profile-->
+    <string name="profileName">Full Name</string>
+    <string name="profileIC">IC Number</string>
+    <string name="profileHp">Phone Number</string>
+    <string name="profileAddress">Address</string>
+    <string name="profileSex">Sex</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="profileID">Employee ID</string>
+    <string name="okText">OK</string>
+    <string name="updateProfileBtn">UPDATE PROFILE</string>
+    <string name="getData">GET DATA</string>
+
+    <!--Fragment Check IN-->
+    <string name="timeNow">Time Now:</string>
+    <string name="cameraView">Scan Your QR Code with Camera</string>
+
+    <!---Button-->
+    <string name="loginBtn">LOGIN</string>
+    <string name="registerBtn">REGISTER</string>
+    <string name="checkPassword">CHECK PASSWORD</string>
+    <string name="cancelBtn">CANCEL</string>
+
+    <!--Left Menu Bar-->
+    <string name="logout">Logout</string>
+    <string name="reportBug">Report A Bug</string>
+    <string name="checkIn">Check-In</string>
+    <string name="checkOut">Check-Out</string>
+    <string name="manageProfile">Manage Profile</string>
+    <string name="registerProfile">Register Profile</string>
+    <string name="Apply">Apply</string>
+    <string name="setting">Setting</string>
+    <string name="applyOffDay">Off-Day</string>
+    <string name="distress">Distress-Function</string>
+    <string name="Qioks">Qioks</string>
+    <string name="checkPayslip">Check Pay-Slip</string>
+    <string name="checkWorkingDay">Check Schedule</string>
+
+
+    <!--Right Menu Bar-->
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+
+
+    <!--Text In Fragment.... Click From Card View-->
+    <string name="textInAgreement">
+        Dear our Beloved Staff and Employee
+        \n\nSince our Company, Kopi Cooperation has achieve our Expected Target which
+        is reach the peak of the Sales in the year 2018.
+        \n\nSo Our Boss, Kopi decided to raise our beloved employee
+        insentive from 5Percent of the monthly salary to 10Percent of the monthly salary.
+        \n\nOnce again, thanks to our
+        beloved employee for working hard and smart to push our Sales to the peak and Keep going.
+        \n\nThanks.
+    </string>
+    <string name="textInCompanyTrip">
+        Dear our Beloved Staff and Employee
+        \n\nOur company, Kopi Cooperation has provide a year-end trip which is 2 week
+        trip to Europe countries for our beloved staffs and employees. However, the payment and the
+        fees will fully provided and sponsor from our company.
+        \n\nWe will select those staff and employee based on their working attitude,
+        hardwork, passion, achievement, and sales.
+        \n\nOnce again, a big thanks to our beloved employee for working hard to push our
+        sales, achieve our target and Keep move on.
+        \n\nThanks.
+    </string>
+    <string name="textInRecruitment">
+        Dear our Beloved Staff and Employee
+        \n\n\t\t\t\tWe Need More People!!!
+        \n\nOur company, Kopi Cooperation is currently facing shortage of people. We will hire people
+        who can work for
+        \nDepartment:
+        \n\t\t-I.T.
+        \n\t\t-Human Resources
+        \n\t\t-Guard and Security
+        \n\t\t-Marketing
+        \n\nIf anyone is interested and can call Kopi 0105653762 for Interview.
+        \n\nOur Beloved Staff and Employee can help our company to spread the news and will get
+        the commission if the person is been selected and is recommended by YOU.
+        \n\nA big thank you and Happy Working.
+    </string>
+    <string name="textInOfferPos">
+        Dear our Beloved Staff and Employee
+        \n\nOur company, Kopi Cooperation will be giving a position offering.
+        \nPosition Offer:
+        \n\t\t-Assistant Manager
+        \n\t\t-Manager
+        \n\t\t-Senior IT Manager
+        \n\t\t-IT Manager
+        \n\nAnyone who is interested can walk-in interview in CEO office
+        or write a letter with attached CV or Resume to
+        kopibryant55@gmail.com
+        \n\nThanks and Enjoy your working Day.
+    </string>
+
+    <!--Welcome Page Text-->
+    <string name="maximum">MAXIMUM</string>
+    <string name="effort">EFFORT</string>
+    <string name="on">on</string>
+    <string name="whatyoudo">WHAT YOU DO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
